@@ -1,8 +1,37 @@
 {
-    "message": "Hello, this is your data from the file!",
-    "items": [
-        { "id": 1, "name": "Item 1" },
-        { "id": 2, "name": "Item 2" },
-        { "id": 3, "name": "Item 3" }
+    "PLAYERS": "60/64",
+    "PING": "104ms",
+    "TICKRATE": "60Hz",
+    "SETTINGS": [
+      { "key": "REGION", "value": "EUROPE - DE" },
+      { "key": "PUNKBASTER", "value": "ON" },
+      { "key": "FAIRFIGHT", "value": "ON" },
+      { "key": "PASSWORD", "value": "OFF" },
+      { "key": "PRESET", "value": "NORMAL" }
+    ],
+    "ADVANCED": [
+      { "key": "MINIMAP", "value": "ON" },
+      { "key": "ONLY SQUAD LEADER SPAWN", "value": "OFF" },
+      { "key": "VEHICLES", "value": "ON" },
+      { "key": "TEAM BALANCE", "value": "ON" },
+      { "key": "MINIMAP SPOTTING", "value": "ON" },
+      { "key": "HUD", "value": "ON" },
+      { "key": "3P VEHICLE CAM", "value": "ON" },
+      { "key": "REGENERATIVE HEALTH", "value": "ON" },
+      { "key": "KILL CAM", "value": "ON" },
+      { "key": "FRIENDLY FIRE", "value": "OFF" },
+      { "key": "3D SPOTTING", "value": "ON" },
+      { "key": "ENEMY NAME TAGS", "value": "ON" }
+    ],
+    "RULES": [
+      { "key": "TICKETS", "value": 400 },
+      { "key": "VEHICLE SPAWN DELAY", "value": 25 },
+      { "key": "BULLET DAMAGE", "value": 100 },
+      { "key": "KICK AFTER TEAM KILLS", "value": 5 },
+      { "key": "PLAYER HEALTH", "value": 100 },
+      { "key": "PLAYER RESPAWN TIME", "value": 100 },
+      { "key": "KICK AFTER IDLE", "value": 300 },
+      { "key": "BAN AFTER KICKS", "value": 3 }
     ]
-}
+  }
+  
