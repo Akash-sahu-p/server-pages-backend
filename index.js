@@ -19,9 +19,9 @@ app.get('/', (req, res)=> {
     res.json({"entry": "this is empty"});
 });
 
-// app.get('/fetchdata', (req, res) => {
-//     res.json(data);
-// });
+app.get('/fetchdata', (req, res) => {
+    res.json(data);
+});
 
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
